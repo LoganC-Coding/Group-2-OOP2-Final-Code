@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\services\\databaseinitializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\services\\databaseinitializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\models\\displayorderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\models\\displayorderitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\models\\displayordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\models\\displayordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\models\\tablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\models\\tablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\components\\pages\\tableselectionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\tableselectionpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\components\\pages\\orderdisplaypage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\orderdisplaypage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|d:\\school\\y1t2\\oop2\\proj\\mauiapp1\\mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C35085-8703-4E3F-8C60-6417AC728E63}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Services\\TableService.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\TableService.cs",
+              "RelativeToolTip": "MauiApp1\\Services\\TableService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowFAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T19:08:32.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableSelectionPage.razor",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Pages\\TableSelectionPage.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\TableSelectionPage.razor",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Pages\\TableSelectionPage.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\TableSelectionPage.razor",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAGkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T01:18:43.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Services\\OrderService.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\OrderService.cs",
+              "RelativeToolTip": "MauiApp1\\Services\\OrderService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:23:44.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\Order.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\Order.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\Order.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:22:34.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisplayOrderItemModel.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\DisplayOrderItemModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\DisplayOrderItemModel.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\DisplayOrderItemModel.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\DisplayOrderItemModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T16:10:53.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisplayOrderModel.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\DisplayOrderModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\DisplayOrderModel.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\DisplayOrderModel.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\DisplayOrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T16:09:56.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseInitializationService.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\DatabaseInitializationService.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Services\\DatabaseInitializationService.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Services\\DatabaseInitializationService.cs",
+              "RelativeToolTip": "MauiApp1\\Services\\DatabaseInitializationService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T17:36:08.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableModel.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\TableModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Models\\TableModel.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Models\\TableModel.cs",
+              "RelativeToolTip": "MauiApp1\\Models\\TableModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:02:21.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDisplayPage.razor",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Pages\\OrderDisplayPage.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\OrderDisplayPage.razor",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Pages\\OrderDisplayPage.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\OrderDisplayPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T16:11:54.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T16:12:39.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-19T19:57:45.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "MauiApp1\\wwwroot\\css\\app.css",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "MauiApp1\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-19T16:12:20.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "MauiApp1\\wwwroot\\index.html",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "MauiApp1\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-19T20:37:13.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\MauiProgram.cs",
+              "ToolTip": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\MauiProgram.cs",
+              "RelativeToolTip": "MauiApp1\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T17:36:26.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
