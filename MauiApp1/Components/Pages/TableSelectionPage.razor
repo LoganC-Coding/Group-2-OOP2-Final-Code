@@ -1,0 +1,178 @@
+﻿@* Author: Felix Gabriel Montañez *@
+@* Date: 2025-04-18 *@
+
+@* Program: TablesPage (Blazor Component) *@
+@* Description: *@
+@* This Blazor page displays the status of main floor tables fetched from a database. *@
+@* It gets table data, renders it visually, and handles user selection with confirmations. *@
+
+@* Inputs: *@
+@* – IJSRuntime for interacting with JavaScript (alerts, confirms). *@
+@* – Internal database connection details and SQL query for fetching tables 1-11. *@
+
+@* Processing: *@
+@* – Loads table data asynchronously on startup. *@
+@* – Manages loading and error states. *@
+@* – Styles tables based on reserved status and selection. *@
+@* – Handles table clicks, showing JavaScript alerts or confirmation prompts. *@
+@* – Updates selected table ID upon user confirmation. *@
+
+@* Outputs: *@
+@* – Displays tables with status (reserved, available, selected). *@
+@* – Shows loading or error messages in the UI. *@
+@* – Invokes browser alert and confirm dialogs via JavaScript. *@
+
+
+@page "/tables"
+
+@inject IJSRuntime JSRuntime
+
+@using MauiApp1.Models
+@using MySql.Data.MySqlClient
+@using System.Collections.Generic
+@using System.Threading.Tasks
+@using System
+
+<h3>Main Floor Tables</h3>
+
+@* --- ADDED: Legend Section --- *@
+<div class="legend-section">
+    <div class="legend-item">
+        <span class="legend-box legend-available"></span> Available
+    </div>
+    <div class="legend-item">
+        <span class="legend-box legend-reserved"></span> Reserved
+    </div>
+    <div class="legend-item">
+        <span class="legend-box legend-selected"></span> Selected
+    </div>
+</div>
+@* --- End Legend Section --- *@
+
+@if (isLoading)
+{
+    <p><em>Loading tables...</em></p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color: red;">@errorMessage</p>
+}
+else if (tables.Any())
+{
+    <div class="table-layout">
+        @foreach (var table in tables)
+        {
+            <div class="@GetTableCssClass(table)" @onclick="@(() => HandleTableClick(table))">
+                Table @table.TableId
+                <br />
+                (@table.Seats Seats)
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No tables found.</p>
+}
+
+
+@code {
+    // ... (Your existing @code block remains unchanged) ...
+    private List<TableModel> tables = new List<TableModel>();
+    private bool isLoading = true;
+    private string errorMessage = string.Empty;
+    private int? selectedTableId = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+        try
+        {
+            tables = await GetMainFloorTablesDirectlyAsync();
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Error initializing page: {ex.Message}");
+            errorMessage = "Failed to load table data. Please check connection or database.";
+            tables = new List<TableModel>();
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task<List<TableModel>> GetMainFloorTablesDirectlyAsync()
+    {
+        var tables = new List<TableModel>();
+        string sql = "SELECT table_id, seats, is_reserved FROM `Table` WHERE table_id BETWEEN 1 AND 11 ORDER BY table_id;";
+        string server = "localhost";
+        string port = "3306";
+        string database = "test2db";
+        string user = "root";
+        string password = "password";
+        string connectionString = $"Server={server};Port={port};Database={database};Uid={user};Pwd={password};";
+        System.Diagnostics.Debug.WriteLine($"Using HARDCODED connection string: Server={server};Port={port};Database={database};Uid={user};Pwd=*****");
+        try
+        {
+            await using var connection = new MySqlConnection(connectionString);
+            await connection.OpenAsync();
+            System.Diagnostics.Debug.WriteLine("HARDCODED Connection: MySQL connection opened successfully.");
+            await using var command = new MySqlCommand(sql, connection);
+            await using var reader = await command.ExecuteReaderAsync();
+            System.Diagnostics.Debug.WriteLine("HARDCODED Connection: SQL command executed. Reading data...");
+            int rowCount = 0;
+            while (await reader.ReadAsync())
+            {
+                rowCount++;
+                tables.Add(new TableModel
+                    {
+                        TableId = Convert.ToInt32(reader["table_id"]),
+                        Seats = Convert.ToInt32(reader["seats"]),
+                        IsReserved = Convert.ToBoolean(reader["is_reserved"])
+                    });
+            }
+            System.Diagnostics.Debug.WriteLine($"HARDCODED Connection: Finished reading. Found {rowCount} rows.");
+        }
+        catch (MySqlException ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"HARDCODED Connection: MySQL Error fetching tables: {ex.Message}");
+            throw new InvalidOperationException($"Database error: {ex.Message}", ex);
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"HARDCODED Connection: Generic Error fetching tables: {ex.Message}");
+            throw new InvalidOperationException($"General error fetching table data: {ex.Message}", ex);
+        }
+        return tables;
+    }
+
+    private string GetTableCssClass(TableModel table)
+    {
+        if (table.IsReserved) { return "table-box table-reserved"; }
+        else if (selectedTableId.HasValue && table.TableId == selectedTableId.Value) { return "table-box table-available table-selected"; }
+        else { return "table-box table-available"; }
+    }
+
+    private async Task HandleTableClick(TableModel selectedTable)
+    {
+        if (selectedTable.IsReserved)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", $"Table {selectedTable.TableId} is currently reserved.");
+            return;
+        }
+        string confirmationMessage = $"Confirm selection of Table {selectedTable.TableId}?";
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", confirmationMessage);
+        if (confirmed)
+        {
+            selectedTableId = selectedTable.TableId;
+            System.Diagnostics.Debug.WriteLine($"Table {selectedTable.TableId} selection CONFIRMED.");
+        }
+        else
+        {
+            System.Diagnostics.Debug.WriteLine($"Table {selectedTable.TableId} selection cancelled by user.");
+        }
+    }
+
+}

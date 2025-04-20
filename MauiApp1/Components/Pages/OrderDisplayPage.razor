@@ -1,0 +1,294 @@
+﻿
+@* Author: Felix Gabriel Montanez *@
+@* Date: 2025-04-19 *@
+
+@* Program: OrdersPage (Blazor Component) *@
+@* Description: This Blazor page displays active orders from the database, renders each order with details, and allows finishing served orders via a confirmation dialog. *@
+
+@* Inputs: *@
+@* – IJSRuntime for invoking JavaScript confirm and alert dialogs. *@
+@* – Internal database connection details (MySQL) via GetConnectionString(). *@
+@* – SQL query joining Order, OrderItem, Menu, and Transaction tables. *@
+
+@* Processing: *@
+@* – OnInitializedAsync invokes LoadActiveOrders to fetch data asynchronously. *@
+@* – LoadActiveOrders handles loading/error states, executes SQL, and maps results to DisplayOrderModel. *@
+@* – Renders active orders with items, status, and a ‘Finish Order’ button for served orders. *@
+@* – HandleFinishOrderClickAsync prompts confirmation, calls DeleteOrderFromDatabaseAsync to remove records in a transaction, updates UI, and handles errors. *@
+
+@* Outputs: *@
+@* – Displays active orders or messages for loading, errors, or no orders. *@
+@* – Removes orders from UI upon successful completion. *@
+
+
+
+@page "/orders"
+
+@inject IJSRuntime JSRuntime // Ensure IJSRuntime is injected
+
+@using MauiApp1.Models
+@using MySql.Data.MySqlClient
+@using System.Collections.Generic
+@using System.Threading.Tasks
+@using System
+@using System.Linq
+
+<h3>Active Orders</h3>
+
+@if (isLoading)
+{
+    <p><em>Loading orders...</em></p>
+}
+else if (!string.IsNullOrEmpty(errorMessage))   
+{
+    <p style="color: red;">@errorMessage</p>
+}
+else if (activeOrders.Any())
+{
+    <div class="order-card-layout">
+        @foreach (var order in activeOrders)
+        {
+            <div class="order-card @order.StatusClass">
+                <h4>Order #@order.OrderId <small>(@order.OrderType)</small></h4>
+                <div><strong>Status:</strong> @order.StatusText</div>
+                @if (order.TableId.HasValue)
+                {
+                    <div><strong>Table:</strong> @order.TableId.Value</div>
+                }
+                <hr />
+                <div><strong>Items:</strong></div>
+                @if (order.Items.Any())
+                {
+                    <ul>
+                        @foreach (var item in order.Items)
+                        {
+                            <li>@item.Quantity x @item.ItemName</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p><small>No items found for this order (data issue?).</small></p>
+                }
+
+                @* --- ADDED: Finish Button for Served Orders --- *@
+                @if (order.IsServed)
+                {
+                    <div class="order-actions">
+                        <button class="btn btn-finish" @onclick="@(() => HandleFinishOrderClickAsync(order))">
+                            Finish Order
+                        </button>
+                    </div>
+                }
+                @* --- END: Finish Button --- *@
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No active orders found.</p>
+}
+
+@code {
+    private List<DisplayOrderModel> activeOrders = new List<DisplayOrderModel>();
+    private bool isLoading = true;
+    private string errorMessage = string.Empty;
+
+    // Hardcoded connection details (as before)
+    private string GetConnectionString()
+    {
+        string server = "localhost";
+        string port = "3306";
+        string database = "test2db";
+        string user = "root";
+        string password = "password"; // Use your actual password
+        return $"Server={server};Port={port};Database={database};Uid={user};Pwd={password};";
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadActiveOrders();
+    }
+
+    private async Task LoadActiveOrders()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+        activeOrders.Clear();
+        var ordersInProgress = new Dictionary<int, DisplayOrderModel>();
+        string sql = @"
+            SELECT
+                o.order_id, o.order_type, o.table_id, o.is_served,
+                oi.quantity,
+                m.name AS item_name
+            FROM `Order` o
+            INNER JOIN `OrderItem` oi ON o.order_id = oi.order_id
+            INNER JOIN `Menu` m ON oi.item_id = m.item_id
+            LEFT JOIN `Transaction` t ON o.order_id = t.order_id
+            ORDER BY o.order_id, m.name;
+        ";
+        string connectionString = GetConnectionString();
+
+        try
+        {
+            await using var connection = new MySqlConnection(connectionString);
+            await connection.OpenAsync();
+            await using var command = new MySqlCommand(sql, connection);
+            await using var reader = await command.ExecuteReaderAsync();
+
+            while (await reader.ReadAsync())
+            {
+                int currentOrderId = Convert.ToInt32(reader["order_id"]);
+                if (!ordersInProgress.ContainsKey(currentOrderId))
+                {
+                    ordersInProgress[currentOrderId] = new DisplayOrderModel
+                        {
+                            OrderId = currentOrderId,
+                            OrderType = reader["order_type"].ToString() ?? "N/A",
+                            TableId = reader.IsDBNull(reader.GetOrdinal("table_id")) ? (int?)null : Convert.ToInt32(reader["table_id"]),
+                            IsServed = Convert.ToBoolean(reader["is_served"])
+                        };
+                }
+                ordersInProgress[currentOrderId].Items.Add(new DisplayOrderItemModel
+                    {
+                        Quantity = Convert.ToInt32(reader["quantity"]),
+                        ItemName = reader["item_name"].ToString() ?? "Unknown Item"
+                    });
+            }
+            activeOrders = ordersInProgress.Values.ToList();
+            System.Diagnostics.Debug.WriteLine($"Loaded {activeOrders.Count} active orders.");
+        }
+        catch (MySqlException ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"MySQL Error loading orders: {ex.Message}");
+            errorMessage = "Failed to load orders due to a database error.";
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Generic Error loading orders: {ex.Message}");
+            errorMessage = "An unexpected error occurred while loading orders.";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    // --- ADDED: Handler for the Finish Order button click ---
+    private async Task HandleFinishOrderClickAsync(DisplayOrderModel orderToFinish)
+    {
+        // 1. Confirmation
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", $"Do you want to finish Order #{orderToFinish.OrderId}?");
+
+        if (!confirmed)
+        {
+            System.Diagnostics.Debug.WriteLine($"Finishing Order #{orderToFinish.OrderId} cancelled by user.");
+            return; // Stop if user cancels
+        }
+
+        System.Diagnostics.Debug.WriteLine($"Attempting to finish Order #{orderToFinish.OrderId}...");
+        errorMessage = string.Empty; // Clear previous errors
+
+        // 2. Database Deletion
+        try
+        {
+            bool success = await DeleteOrderFromDatabaseAsync(orderToFinish.OrderId);
+
+            if (success)
+            {
+                // 3. UI Update on Success
+                activeOrders.Remove(orderToFinish); // Remove from the list
+                System.Diagnostics.Debug.WriteLine($"Order #{orderToFinish.OrderId} successfully removed from DB and UI.");
+                // StateHasChanged() is implicitly called by Blazor after event handler completes
+            }
+            else
+            {
+                // This case might occur if DeleteOrderFromDatabaseAsync returns false instead of throwing
+                errorMessage = $"Failed to finish Order #{orderToFinish.OrderId}. Database operation did not complete successfully.";
+                await JSRuntime.InvokeVoidAsync("alert", errorMessage); // Show error to user
+            }
+        }
+        catch (Exception ex)
+        {
+            // 4. Error Handling
+            System.Diagnostics.Debug.WriteLine($"Error finishing Order #{orderToFinish.OrderId}: {ex.Message}");
+            errorMessage = $"Error finishing Order #{orderToFinish.OrderId}. Please check logs or try again.";
+            await JSRuntime.InvokeVoidAsync("alert", errorMessage); // Show error to user
+        }
+    }
+
+    // --- ADDED: Method to perform database deletion ---
+    private async Task<bool> DeleteOrderFromDatabaseAsync(int orderId)
+    {
+        string connectionString = GetConnectionString();
+        await using var connection = new MySqlConnection(connectionString);
+        await connection.OpenAsync();
+        // Start transaction for atomicity
+        await using var transaction = await connection.BeginTransactionAsync();
+
+        try
+        {
+            int transactionsDeleted = 0;
+            int itemsDeleted = 0;
+            int ordersDeleted = 0;
+
+            // --- STEP 1: Delete from Transaction table first ---
+            // This might not always have a record, but attempt it anyway for orders being "finished"
+            string deleteTransactionSql = "DELETE FROM `Transaction` WHERE order_id = @order_id";
+            await using (var cmdTransaction = new MySqlCommand(deleteTransactionSql, connection, transaction))
+            {
+                cmdTransaction.Parameters.AddWithValue("@order_id", orderId);
+                transactionsDeleted = await cmdTransaction.ExecuteNonQueryAsync(); // Execute the delete
+                System.Diagnostics.Debug.WriteLine($"Deleted {transactionsDeleted} transaction record(s) for Order #{orderId}.");
+            }
+
+            // --- STEP 2: Delete related OrderItems ---
+            string deleteItemsSql = "DELETE FROM `OrderItem` WHERE order_id = @order_id";
+            await using (var cmdItems = new MySqlCommand(deleteItemsSql, connection, transaction))
+            {
+                cmdItems.Parameters.AddWithValue("@order_id", orderId);
+                itemsDeleted = await cmdItems.ExecuteNonQueryAsync();
+                System.Diagnostics.Debug.WriteLine($"Deleted {itemsDeleted} item record(s) for Order #{orderId}.");
+            }
+
+            // --- STEP 3: Delete the Order itself ---
+            string deleteOrderSql = "DELETE FROM `Order` WHERE order_id = @order_id";
+            await using (var cmdOrder = new MySqlCommand(deleteOrderSql, connection, transaction))
+            {
+                cmdOrder.Parameters.AddWithValue("@order_id", orderId);
+                ordersDeleted = await cmdOrder.ExecuteNonQueryAsync();
+                System.Diagnostics.Debug.WriteLine($"Deleted {ordersDeleted} order record for Order #{orderId}.");
+
+                // Check if the order was actually found and deleted
+                if (ordersDeleted == 0 && itemsDeleted == 0) // If no order and no items were deleted
+                {
+                    System.Diagnostics.Debug.WriteLine($"Warning: No order or items found with ID #{orderId} to delete. Might have been deleted already.");
+                    // Decide if this constitutes failure or success. Let's allow commit if nothing was found.
+                }
+            }
+
+            // If all commands succeeded without throwing exceptions, commit the transaction
+            await transaction.CommitAsync();
+            System.Diagnostics.Debug.WriteLine($"Transaction committed successfully for finishing Order #{orderId}.");
+            return true; // Indicate success
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Database error during deletion for Order #{orderId}: {ex.Message}");
+            // Attempt to roll back the transaction
+            try
+            {
+                await transaction.RollbackAsync();
+                System.Diagnostics.Debug.WriteLine($"Transaction rolled back for Order #{orderId}.");
+            }
+            catch (Exception rbEx)
+            {
+                // Log rollback error but primary error is more important
+                System.Diagnostics.Debug.WriteLine($"Error rolling back transaction for Order #{orderId}: {rbEx.Message}");
+            }
+            return false; // Indicate failure
+        }
+        // await using handles closing the connection implicitly
+    }
+}
