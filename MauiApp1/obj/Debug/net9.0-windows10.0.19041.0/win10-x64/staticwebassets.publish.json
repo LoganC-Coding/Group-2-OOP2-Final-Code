@@ -1,0 +1,3484 @@
+{
+  "Version": 1,
+  "Hash": "BiyNjemsoUUvGHOl2NRj7tWUJirO7VLz5p2p5azmGXk=",
+  "Source": "MauiApp1",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MauiApp1\\wwwroot",
+      "Source": "MauiApp1",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-toh8eh227c.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint=toh8eh227c}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cszqxm58x6",
+      "Integrity": "VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fbl5ivwo6k",
+      "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=kmeqsx4zfn}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "emp2hzl8ca",
+      "Integrity": "Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-6y1urg0ukm.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint=6y1urg0ukm}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cky9halp64",
+      "Integrity": "xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\1joc8h8ni1-toh8eh227c.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint=toh8eh227c}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "eeomji0npt",
+      "Integrity": "BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "b4a1wrn6r6",
+      "Integrity": "e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=kmeqsx4zfn}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "hykldh1s1r",
+      "Integrity": "WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\oq58hdkxfw-6y1urg0ukm.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint=6y1urg0ukm}]?.styles.css.br",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "r8hfknl7go",
+      "Integrity": "9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\qcuihj8de4-6y1urg0ukm.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint=6y1urg0ukm}]!.bundle.scp.css.br",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "r8hfknl7go",
+      "Integrity": "9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "2o883p7o84",
+      "Integrity": "4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qcuihj8de4-6y1urg0ukm.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint=6y1urg0ukm}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cky9halp64",
+      "Integrity": "xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "joqzyw7ssu",
+      "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "6y1urg0ukm",
+      "Integrity": "ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "SourceId": "MauiApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "BasePath": "/",
+      "RelativePath": "MauiApp1#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "6y1urg0ukm",
+      "Integrity": "ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "toh8eh227c",
+      "Integrity": "c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kmeqsx4zfn",
+      "Integrity": "jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-toh8eh227c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000287521564"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3477"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\1joc8h8ni1-toh8eh227c.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000341763500"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2925"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\1joc8h8ni1-toh8eh227c.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-toh8eh227c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.toh8eh227c.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-toh8eh227c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000287521564"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3477"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toh8eh227c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.toh8eh227c.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\1joc8h8ni1-toh8eh227c.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000341763500"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2925"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toh8eh227c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.toh8eh227c.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toh8eh227c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6I8npuf6YuN/m9o2W/SnmGNk6IE8Qp2wa5YZnp4HXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.toh8eh227c.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\1joc8h8ni1-toh8eh227c.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toh8eh227c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BmCbiTWbslxFava7IoueT6c5XmhRRa38EpkBh+ooGhg="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.toh8eh227c.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-toh8eh227c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 18:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toh8eh227c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VJ8OwvkZP+LrRoClMYCCWMcGN4wpYevHfz4sio5F35g="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000057250816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000057250816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000017661604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000017661604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002283105023"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
+        }
+      ]
+    },
+    {
+      "Route": "index.kmeqsx4zfn.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002283105023"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmeqsx4zfn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.kmeqsx4zfn.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmeqsx4zfn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.kmeqsx4zfn.html",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmeqsx4zfn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+        }
+      ]
+    },
+    {
+      "Route": "index.kmeqsx4zfn.html.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmeqsx4zfn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU="
+        }
+      ]
+    },
+    {
+      "Route": "index.kmeqsx4zfn.html.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:55:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kmeqsx4zfn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\qcuihj8de4-6y1urg0ukm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000688705234"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qcuihj8de4-6y1urg0ukm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000567859171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.bundle.scp.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\qcuihj8de4-6y1urg0ukm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.bundle.scp.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.bundle.scp.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qcuihj8de4-6y1urg0ukm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-6y1urg0ukm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000567859171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\oq58hdkxfw-6y1urg0ukm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000688705234"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.styles.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\oq58hdkxfw-6y1urg0ukm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.styles.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.6y1urg0ukm.styles.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-6y1urg0ukm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6y1urg0ukm"
+        },
+        {
+          "Name": "label",
+          "Value": "MauiApp1.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\qcuihj8de4-6y1urg0ukm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000688705234"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qcuihj8de4-6y1urg0ukm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000567859171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.bundle.scp.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.bundle.scp.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\qcuihj8de4-6y1urg0ukm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.bundle.scp.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\qcuihj8de4-6y1urg0ukm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-6y1urg0ukm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000567859171"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\oq58hdkxfw-6y1urg0ukm.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000688705234"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.styles.css",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ot+0WIwu0RSpF34r+6wRHQQErrNl5K5C7rk8ja1c7ew="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.styles.css.br",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\oq58hdkxfw-6y1urg0ukm.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9ZqvP5WIil77YFsRT+TT4ddhKkl8FHmtxuMESw3PIMI="
+        }
+      ]
+    },
+    {
+      "Route": "MauiApp1.styles.css.gz",
+      "AssetFile": "D:\\school\\Y1T2\\OOP2\\Proj\\MauiApp1\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-6y1urg0ukm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 20:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xD/E79MVGEe6UakZdz2snizPgXC42lCSQzccmTf/WVU="
+        }
+      ]
+    }
+  ]
+}

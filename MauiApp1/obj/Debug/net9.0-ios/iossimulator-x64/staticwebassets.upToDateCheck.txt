@@ -1,0 +1,8 @@
+D:\school\Y1T2\OOP2\Proj\MauiApp1\MauiApp1\wwwroot\css\app.css
+D:\school\Y1T2\OOP2\Proj\MauiApp1\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\school\Y1T2\OOP2\Proj\MauiApp1\MauiApp1\wwwroot\index.html
+D:\school\Y1T2\OOP2\Proj\MauiApp1\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
